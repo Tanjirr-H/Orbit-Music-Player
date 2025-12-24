@@ -1,0 +1,126 @@
+/* login style  */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100vh;
+    width: 100%;
+    background: #121213;
+    display: grid;
+    place-items: center;
+    color: white;
+}
+header{
+    position: relative;
+    width: 85%;
+    height: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+header .left_bx1 , .right_bx1{
+    position: relative;
+    width: 65%;
+    height: 100%;
+    /* border: 1px solid #fff; */
+    background:linear-gradient(to top left,#f6fafd,skyblue,#4a7fa7,#1a3d63,#0a1931);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    
+}
+header .left_bx1{
+    width: 35%;
+    background-image: url(https://i.pinimg.com/736x/c5/6b/7b/c56b7be8227e98bb515f56f68a396676.jpg);
+    /* box-shadow: 5px 0px 2px #090f1f; */
+    border: none;
+    position: relative;
+    
+}
+header .left_bx1 .content{
+    width: 75%;
+    height: auto;
+    border: none;
+    padding: 25px 20px;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .left_bx1 .content .card{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+header .left_bx1 .content .card label{
+    font-size: 14px;
+
+}
+header .left_bx1 .content .card input{
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid rgb( 154, 154, 154);
+    background: rgb( 238, 238, 238 );
+    margin-top: 5px;
+}
+header .left_bx1 .content .submit{
+    margin-top: 30px;
+    padding: 8px 20px;
+    color: #fff;
+    background: #111727;
+    width: 100%;
+    cursor: pointer;
+}
+header .left_bx1 .content .check{
+    display: flex;
+    color: #0b1320;
+    align-items: center;
+    margin-top: 10px;
+}
+header .left_bx1 .content .check span{ 
+    margin-left: 5px;
+    font-size: 13px;
+}
+header .left_bx1 .content p{ 
+    margin-top: 90px;
+    text-align: center;
+    font-size: 13px;
+    color: #50586c;
+}
+header .left_bx1 .content p a{
+    text-decoration: none;
+    color: #5adae0;
+    font-weight:bold ;
+}
+
+header .right_bx1 h3{
+    position: absolute;
+    background: #5adae0;
+    color: black;
+    right: 0;
+    bottom: 20px;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+header .right_bx1 img{
+    object-fit: cover;
+    /* object-position: center; */
+    /* obj */
+    object-position: top;
+    height: 90%;
+    width: 90%;
+    border-radius: 50% 0px  50% 0px;
+    border: 1.5px solid #1a3d63;
+    /* border: 5px solid white; */
+
+}
+
+
+
