@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 97bdbf31ecefc883049c1e4fb8698061c110a570
 const music =new Audio('audio/1.mp3');
 // music.play();
 
@@ -46,7 +49,11 @@ const songs = [
   },
   {
     id: 9,
+<<<<<<< HEAD
     songName: `Jo Pathaan <br><div class="subtitle">Arijit Singh (Style)</div>`,
+=======
+    songName: `Jhoome Jo Pathaan <br><div class="subtitle">Arijit Singh (Style)</div>`,
+>>>>>>> 97bdbf31ecefc883049c1e4fb8698061c110a570
     poster: "img/9.jpg",
   },
   {
@@ -112,6 +119,7 @@ const songs = [
 ];
 
 
+<<<<<<< HEAD
 const search_input = document.getElementById('search_input');
 const search_results = document.querySelector('.search_results');
 
@@ -186,6 +194,8 @@ search_input.addEventListener('keyup', () => {
 
 });
 
+=======
+>>>>>>> 97bdbf31ecefc883049c1e4fb8698061c110a570
 Array.from(document.getElementsByClassName('songItem')).forEach((e,i) =>{
     e.getElementsByTagName('img')[0].src = songs[i].poster;
     e.getElementsByTagName('h5')[0].innerHTML = songs[i].songName;
